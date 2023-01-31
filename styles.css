@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+}
+
+section {
+  display: grid;
+  justify-items: center;
+  width: 700px;
+}
+section img {
+  width: 100%;
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section #capture {
+  position: relative;
+  font-size: 2em;
+}
+section h1 {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  right: 0.5em;
+  bottom: 0.5em;
+  text-align: right;
+}
+section p {
+  position: absolute;
+  -webkit-text-size-adjust: 0.002em;
+     -moz-text-size-adjust: 0.002em;
+          text-size-adjust: 0.002em;
+  bottom: 0.5em;
+  left: 0.5em;
+}/*# sourceMappingURL=styles.css.map */
